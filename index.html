@@ -2,111 +2,108 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Création de sites web pour restaurants | 300$ tout inclus</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui, sans-serif;
-      background: #0f172a;
-      color: #f8fafc;
-      line-height: 1.6;
-    }
-
-    header {
-      text-align: center;
-      padding: 60px 20px;
-      background: #1e293b;
-    }
-
-    h1 {
-      font-size: 2.6rem;
-      margin: 0;
-    }
-
-    p {
-      color: #cbd5e1;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 22px;
-      background: #3b82f6;
-      color: white;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      font-size: 2rem;
-    }
-
-    .card {
-      padding: 20px;
-      background: #1e293b;
-      border-radius: 12px;
-      margin-bottom: 25px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #94a3b8;
-      font-size: 0.9rem;
-    }
-  </style>
+  <title>Sites web pour restaurants - 300 $ tout inclus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <main class="app">
+    <!-- Carte profil / présentation -->
+    <section class="card-main">
+      <div class="avatar">
+        <!-- remplace par ta photo si tu veux -->
+        <img src="https://via.placeholder.com/160x160.png?text=Toi" alt="Photo de profil">
+      </div>
+      <h1>Mathis Desgagné</h1>
+      <p class="subtitle">
+       Québécois qui crée des sites web simples, rapides et abordables au Québec.
+      </p>
 
-<header>
-  <h1>Création de sites web pour restaurants</h1>
-  <p>Site complet + hébergement + domaine pour seulement 300 $</p>
-  <a class="btn" href="#infos">Voir les détails</a>
-</header>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:mathisdesgagne@gmail.com">
+          Me contacter
+        </a>
 
-<section id="infos">
-  <h2>Forfait 300$ tout inclus</h2>
+      </div>
+    </section>
 
-  <div class="card">
-    <h3>Ce qui est inclus :</h3>
-    <ul>
-      <li>Site web complet (statique, rapide et moderne)</li>
-      <li>Hébergement pendant 12 mois</li>
-      <li>Nom de domaine inclus</li>
-      <li>Intégration du menu PDF</li>
-      <li>Mise à jour initiale incluse</li>
-      <li>Livraison en 3 à 5 jours</li>
-    </ul>
-  </div>
+    <!-- Cartes principales (forfait, démos, infos) -->
+    <div class="stack">
+      <article class="card">
+        <div class="card-left">
+          <div class="card-icon">🍽️</div>
+          <div>
+            <div class="card-title">Forfait unique – 300 $</div>
+            <p class="card-desc">
+              Site complet + hébergement 1 an + nom de domaine inclus.
+            </p>
+            
+          </div>
+        </div>
+        <div class="card-right">
+          <a class="pill" href="#forfait">Détails</a>
+        </div>
+      </article>
 
-  <div class="card">
-    <h3>Exemples de démos :</h3>
-    <p>(Liens à remplacer par vos démos GitHub Pages)</p>
-    <ul>
-      <li><a href="demos/pizzeria-roma/">Pizzeria Roma (démo)</a></li>
-      <li><a href="demos/sushi-katana/">Sushi Katana (démo)</a></li>
-    </ul>
-  </div>
+      <article class="card">
+        <div class="card-left">
+          <div class="card-icon">⚖️</div>
+          <div>
+            <div class="card-title">Infos légales & politiques</div>
+            <p class="card-desc">
+              Conditions du service, politique de confidentialité, informations légales.
+            </p>
+          </div>
+        </div>
+        <div class="card-right">
+          <a class="pill" href="informations-legales.html">Voir</a>
+        </div>
+      </article>
+    </div>
 
-  <div class="card">
-    <h3>Contact</h3>
-    <p>Email : <strong>tonemail@example.com</strong></p>
-  </div>
-</section>
+    <!-- Bloc détail du forfait (même style que tes pages) -->
+    <section id="forfait" class="page">
+      <h1>Forfait 300 $ – tout inclus</h1>
 
-<footer>
-  © 2025 - Création de sites web | Politique de confidentialité
-</footer>
+      <p>
+        Le forfait est conçu pour les restaurants qui veulent un site web propre,
+        moderne, rapide et simple à gérer, sans aucune complication technique.
+      </p>
 
+      <h2>Ce qui est inclus :</h2>
+      <ul>
+        <li>Création complète d’un site vitrine statique, basé sur un template moderne.</li>
+        <li>Intégration de votre menu (texte ou PDF), photos et informations.</li>
+        <li>Hébergement du site pendant 12 mois.</li>
+        <li>Nom de domaine inclus pour 12 mois.</li>
+        <li>Corrections et ajustements de base lors de la mise en ligne.</li>
+      </ul>
+
+      <h2>Ce qui n’est pas inclus :</h2>
+      <ul>
+        <li>Refonte complète après validation du design.</li>
+        <li>Gestion des réseaux sociaux, shooting photo ou création de logo.</li>
+        <li>Mises à jour régulières du menu ou du contenu (peuvent être offertes en supplément).</li>
+      </ul>
+
+      <h2>Renouvellement et années supplémentaires</h2>
+      <p>
+        Après la première année, si vous souhaitez garder le site en ligne avec son nom de domaine,
+        le coût est de <strong>100 $ par année</strong> (hébergement + domaine).
+      </p>
+      <p>
+        Vous pouvez également choisir, dès la commande, de payer plusieurs années d’avance.
+        Chaque année supplémentaire est facturée <strong>100 $</strong> et vous assure que votre site
+        reste en ligne automatiquement sans gestion de renouvellement.
+      </p>
+    </section>
+
+    <div class="footer">
+      © 2025 – Mathis Desgagné ·
+      <a href="conditions.html">Conditions</a> ·
+      <a href="politique-confidentialite.html">Confidentialité</a> ·
+      <a href="informations-legales.html">Informations légales</a>
+    </div>
+  </main>
 </body>
 </html>
