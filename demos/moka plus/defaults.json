@@ -1,0 +1,110 @@
+{
+  "name": "Casse-croûte du Coin",
+  "tagline": "Casse-croûte de quartier chaleureux",
+  "hero_title": "Votre casse-croûte préféré à proximité",
+  "hero_description": "Poutines généreuses, burgers gourmands et classiques du casse-croûte, servis avec le sourire.",
+  "hero_image_url": "images/hero.jpg",
+  "hero_tag_1": "Sur place",
+  "hero_tag_2": "À emporter",
+  "hero_tag_3": "Terrasse l'été",
+  "hero_cta_primary_text": "Voir le menu (PDF)",
+  "hero_cta_secondary_text": "Commander en ligne",
+  "hero_title_color": "#f9fafb",
+  "hero_subtitle_color": "#e5e7eb",
+  "hero_kicker_color": "#e5e7eb",
+  "meta_description": "Casse-croûte du Coin - poutines, burgers, hot-dogs, menus enfants et plus. Sur place, à emporter, terrasse l'été.",
+
+  "address": "123 Rue Principale, Ville, QC G1A 2B3",
+  "phone": "418 555-1234",
+  "phone_tel": "4185551234",
+
+  "map_title": "Nous trouver",
+  "map_embed_url": "",
+
+  "order_text": "Téléphonez-nous pour commander ou passez directement au comptoir.",
+  "infos_text": "Un casse-croûte chaleureux qui sert des classiques généreux, parfaits pour un repas rapide en famille ou entre amis.",
+
+  "facebook_url": "https://facebook.com/votrecassecroute",
+  "instagram_url": "https://instagram.com/votrecassecroute",
+  "site_credit": "Site web créé automatiquement pour ce restaurant.",
+  "menu_pdf_url": "menu.pdf",
+  "order_url": "https://exemple.com/commande",
+  "menu_cta_primary_text": "Voir le menu (PDF)",
+  "menu_cta_secondary_text": "Commander en ligne",
+
+  "monday_hours": "Fermé",
+  "tuesday_hours": "11 h 00 - 20 h 00",
+  "wednesday_hours": "11 h 00 - 20 h 00",
+  "thursday_hours": "11 h 00 - 20 h 00",
+  "friday_hours": "11 h 00 - 21 h 00",
+  "saturday_hours": "11 h 00 - 21 h 00",
+  "sunday_hours": "11 h 00 - 20 h 00",
+  "hours_note": "* Horaires à adapter selon le restaurant.",
+
+  "gallery_count": "6",
+  "gallery_1_src": "images/plat-1.jpg",
+  "gallery_1_alt": "Poutine maison avec fromage en grains",
+  "gallery_2_src": "images/plat-2.jpg",
+  "gallery_2_alt": "Burger gourmand avec frites maison",
+  "gallery_3_src": "images/plat-3.jpg",
+  "gallery_3_alt": "Hot-dog garni façon casse-croûte",
+  "gallery_4_src": "images/plat-4.jpg",
+  "gallery_4_alt": "Assiette pour enfants et accompagnements",
+  "gallery_5_src": "images/plat-5.jpg",
+  "gallery_5_alt": "Dessert glacé du moment",
+  "gallery_6_src": "images/plat-6.jpg",
+  "gallery_6_alt": "Sélection de breuvages",
+  "gallery_title": "Notre cuisine en images",
+  "gallery_subtitle": "Un aperçu de quelques plats populaires. Le menu complet est disponible en PDF.",
+
+  "primary_color": "#f97316",
+  "secondary_color": "#1f2937",
+  "bg_page": "#fff7ed",
+  "bg_card": "#ffffff",
+  "bg_hero_overlay_left": "rgba(15, 23, 42, 0.85)",
+  "bg_hero_overlay_right": "rgba(15, 23, 42, 0.35)",
+
+  "accent_soft": "rgba(249, 115, 22, 0.12)",
+  "accent_yellow": "#facc15",
+
+  "text_main": "#111827",
+  "text_muted": "#6b7280",
+  "text_on_hero": "#f9fafb",
+
+  "border_subtle": "#e5e7eb",
+  "section_light_bg": "#fff7ed",
+  "section_cream_bg": "#fffbeb",
+  "section_gallery_bg": "#fff7ed",
+  "section_info_bg": "#fffbeb",
+
+  "footer_bg": "#ffffff",
+  "footer_text": "#6b7280",
+
+  "nav_link_color": "#e5e7eb",
+  "nav_mobile_link_color": "#f9fafb",
+  "nav_mobile_close_text": "#f9fafb",
+
+  "logo_circle_inner": "#fee2e2",
+  "logo_circle_text": "#fef2f2",
+  "btn_primary_text": "#fef2f2",
+
+  "hero_tag_bg": "rgba(255, 255, 255, 0.92)",
+  "hero_tag_text": "#111827",
+  "hero_tag_border": "#e5e7eb",
+
+  "hours_bg": "rgba(255, 255, 255, 0.96)",
+  "hours_border": "rgba(229, 231, 235, 0.9)",
+  "hours_title_color": "#6b7280",
+  "hours_text_color": "#111827",
+  "hours_note_color": "#6b7280",
+
+  "section_title_color": "#0f172a",
+  "section_subtitle_color": "#6b7280",
+
+  "info_label_color": "#6b7280",
+  "info_text_color": "#111827",
+
+  "map_border_color": "rgba(148, 163, 184, 0.9)",
+  "gallery_border_color": "#e5e7eb",
+  "gallery_bg": "#ffffff"
+}

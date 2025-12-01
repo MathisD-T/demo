@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Casse-Croûte Moka Plus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Police moderne -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Casse-Croute Moka Plus a Limoilou : poutines, burgers, smoke meat, hot-dogs et frites maison. Commande au comptoir, téléphone.">
+</head>
+<body>
+
+  <section id="hero" class="hero hero-full">
+    <div class="hero-overlay"></div>
+
+    <!-- NAVBAR DANS LE HERO -->
+    <header class="nav nav-hero">
+      <div class="container nav-inner">
+        <div class="nav-logo">
+          <span class="logo-text">Casse-Croûte<span style= "color:#2c221c" > Moka</span> Plus</span>
+        </div>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+
+        <nav class="nav-links">
+          <button class="nav-close">X</button>
+          <a href="#hero">Accueil</a>
+          <a href="#menu">Menu</a>
+          <a href="#infos">Infos</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CONTENU DU HERO -->
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <p class="hero-kicker">au coeur de limoilou</p>
+        <h1><span style= "color:#2c221c" >Moka</span> Plus</h1>
+        <p class="hero-subtitle">
+          Casse-croûte de quartier qui a pignon sur la 4e Avenue depuis plus de 75 ans!
+        </p>
+
+        <div class="hero-cta">
+          <a href="menu.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+            Voir le menu
+          </a>
+        </div>
+
+        <div class="hero-tags">
+                    <span>Sur place</span>
+          <span>A emporter</span>
+        </div>
+      </div>
+
+      <div class="hero-hours hero-hours-floating">
+        <p class="hours-title">Heures d'ouverture</p>
+        <ul class="hours-list">
+          <li><span>Lundi</span><span>Fermé</span></li>
+          <li><span>Mardi</span><span>11 h 00 - 19 h 30</span></li>
+          <li><span>Mercredi</span><span>11 h 00 - 19 h 30</span></li>
+          <li><span>Jeudi</span><span>11 h 00 - 19 h 30</span></li>
+          <li><span>Vendredi</span><span>11 h 00 - 19 h 30</span></li>
+          <li><span>Samedi</span><span>11 h 00 - 19 h 30</span></li>
+          <li><span>Dimanche</span><span>Fermé</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE PHOTO DU MENU -->
+  <section id="menu" class="section section-light">
+    <div class="container">
+      <div class="section-header section-header-center">
+        <h2>Un apercu du comptoir</h2>
+        <p>Quelques classiques : poutines, burgers, guédilles, et plus encore!</p>
+      </div>
+
+      <!-- Boutons menu + commande -->
+      <div class="menu-actions">
+        <a href="menu.pdf" target="_blank" rel="noopener" class="btn btn-outline">
+          Voir le menu
+        </a>
+      </div>
+
+      <!-- Galerie de photos générée par l'app Python -->
+      <div class="gallery-grid">
+              <figure class="gallery-item">
+        <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/516890851_1303049215160861_5253972394121595971_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=f9cwF3aoanAQ7kNvwGtDH90&_nc_oc=Adl3hZsWsMsP3giSbNie2dJLLC8K0_DxPUa-XGhZRpCqeCRjJ7YSaQQWnNPPmblCyr8&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=h17lb_TPRPpS2ceKmAmzAA&oh=00_AfhaWktJOwHTH2ec-74ooh7qPUSmaKvZp1ALgdihAjd1gw&oe=6932C2AC" alt="Poutine maison de Moka Plus">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/157053168_380227823012432_5666954815147687376_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=mTffdcH-o1UQ7kNvwFBt-qV&_nc_oc=AdkkC7yVaGcYLUOL4_QFL_OcIBmitRPfKlPVsVGAZmTZgEOAPbJWnTXogF8lGSKrhGY&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=Zwwivgq01BAb1QVMGBWz3g&oh=00_Afjc2BYZ6oBogFXguvgSs85zxobsLzv6NciB_RqVzZ6KrA&oe=695450DF" alt="Burger classique et frites maison">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/146743470_355393675495847_6991640165036547583_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=-r8xh2-1ILAQ7kNvwH_S8RV&_nc_oc=Adk0M5zqjA-3ERhCXrzF7MfnTx63w9wk0mB8RlylN9NUmYG1inrH9Z8mI-N-aI9G-uw&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=w3eLlme3WbJyF10IqFi0BA&oh=00_Afili-60eS_V8haVLDW_Jm3kyR-7S84wNd5XfMO0lh00MA&oe=69547623" alt="Hot-dog garni du casse-croute">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/515924383_1303112151821234_1243649110620612355_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_oNgDH23_sEQ7kNvwFkX6Fv&_nc_oc=AdlEYpSIYsLA5_YniGbCl-R73BzKmgC6RMRJrfyjHzgKeeKjGTJSgYCbK1mHE5DV3BI&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=Fpfk1v-cOM5V5v4QCMR4pg&oh=00_Afholej5_JoJ4embN7HQmiWCqjrK3QZ_FF_RPxgX8PIFXg&oe=6932B6BE" alt="Hot-dog garni du casse-croute">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/145520971_355393732162508_1668387597425648719_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GZmaOgE4kugQ7kNvwGhogQ1&_nc_oc=AdmNblYrreqjHmYdfNoxXXK9uF4w5Jdmb3VKZHWvlNk6ZWywMfszciAqHqlWfb-u56g&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=1Nxhcg0rB88pq9aznKHnaQ&oh=00_AfjPNXGNpwK8AnBLnPgS4jnX4g_TL4MEWOAcpVcEpKJH6Q&oe=695462A0" alt="Hot-dog garni du casse-croute">
+      </figure>
+      
+      <figure class="gallery-item">
+        <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/145372866_354054038963144_2676932632654053589_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JbTmHnhUdOoQ7kNvwGRZGK6&_nc_oc=AdmIXj_xSKYGEPnQN89DXvXDyu1RciCTXZKVSQ1MwmYFpWpv7gp6BnP3ODGPx7S0tMQ&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=VzrWZwd7LkI1BS8Jn6quIQ&oh=00_Afj9ld_vB0Mb3P-qOocmnJE3M1s88dQSOelO6Jc-eZeqNA&oe=69545A17" alt="Hot-dog garni du casse-croute">
+      </figure>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- INFOS / CONTACT -->
+  <section id="infos" class="section section-cream">
+    <div class="container infos-grid">
+      <div>
+        <h2 class="section-title"><span style="color: #3e3128;">Infos & contact</span></h2>
+        <p class="infos-text">
+          Petit casse-croûte de quartier sur la 4e Avenue. Plats thématiques disponible à chaque semaine!
+        </p>
+
+        <ul class="info-list">
+          <li>
+            <span class="info-label">Adresse</span>
+            <span>1010 4e Avenue, Québec, QC G1J 3B2</span>
+          </li>
+          <li>
+            <span class="info-label">Téléphone</span>
+            <span><a href="tel:4185256652">(418) 525-6652</a></span>
+          </li>
+          <li>
+            <span class="info-label">Commande</span>
+            <span>Commande au comptoir ou par téléphone</span>
+          </li>
+          <li>
+            <span class="info-label">Réseaux sociaux</span>
+            <span>
+              <a href="https://www.facebook.com/MokaPlusLimoilou/" target="_blank">Facebook</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="map-card">
+        <p class="map-title">Nous trouver</p>
+        <div class="map-placeholder">
+          <iframe
+            src="https://www.google.com/maps?q=moka+plus+limoilou&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Casse-Croûte<span style= "color:#2c221c" > Moka</span> Plus. Tous droits réservés.</p>
+<p style="color: black;" class="footer-credit">Site réalisé par <a style="color: black;" href="https://mathisd-t.github.io/demo/" target="_blank">MDT</a></p>
+    </div>
+  </footer>
+
+  <script>
+  // année footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const navToggle = document.getElementById('nav-toggle');
+  const closeBtn = document.querySelector('.nav-close');
+
+  // Fermer quand on clique sur un lien
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navToggle.checked = false;
+    });
+  });
+
+  // Fermer quand on clique sur le X
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      navToggle.checked = false;
+    });
+  }
+  </script>
+
+</body>
+</html>
